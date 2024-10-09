@@ -16,6 +16,7 @@ echo.
 powershell.exe -Command "Invoke-WebRequest -Uri "https://download.geysermc.org/v2/projects/hydraulic/versions/latest/builds/latest/downloads/neoforge" -OutFile "mods\hydralic-neoforge.jar"
 powershell.exe -Command "Invoke-WebRequest -Uri "https://cdn.modrinth.com/data/bWrNNfkb/versions/ByP7SHZE/Floodgate-Neoforge-2.2.4-b36.jar" -OutFile "mods\Floodgate-Neoforge-2.2.4-b36.jar"
 powershell.exe -Command "Invoke-WebRequest -Uri "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/neoforge" -OutFile "mods\Geyser-Neoforge.jar"
+powershell.exe -Command "Invoke-WebRequest -Uri "https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongeneo/1.21.1-21.1.35-12.0.0-RC1818/spongeneo-1.21.1-21.1.35-12.0.0-RC1818.jar" -OutFile "mods\Sponge.jar"
 powershell.exe -Command "Invoke-WebRequest -Uri "https://build.lenni0451.net/job/ViaProxy/lastSuccessfulBuild/artifact/build/libs/ViaProxy-3.3.4-SNAPSHOT.jar" -OutFile "other\ViaProxy.jar"
 "
 echo [
