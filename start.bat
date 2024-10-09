@@ -11,7 +11,7 @@ call :ColorText 06 "Neo"
 call :ColorText 09 "Light"
 call :ColorText 0f "Launcher"
 call :ColorText 0c "X"
-echo ] Downloading Hydraulic, Floodgate, Geyser, Neoforge(Arclight), SpongeNeo...
+echo ] Downloading Hydraulic, Floodgate, Geyser, SpongeNeo...
 echo.
 powershell.exe -Command "Invoke-WebRequest -Uri "https://download.geysermc.org/v2/projects/hydraulic/versions/latest/builds/latest/downloads/neoforge" -OutFile "mods\hydralic-neoforge.jar"
 powershell.exe -Command "Invoke-WebRequest -Uri "https://cdn.modrinth.com/data/bWrNNfkb/versions/ByP7SHZE/Floodgate-Neoforge-2.2.4-b36.jar" -OutFile "mods\Floodgate-Neoforge-2.2.4-b36.jar"
